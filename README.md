@@ -12,7 +12,7 @@ sudo pacman -Syu
 ```
 
 ```zsh
-sudo pacman -S plymouth
+sudo pacman -S plymouth curl git grub
 ```
 
 ### debian/ubuntu/ other deb distros
@@ -26,3 +26,12 @@ sudo apt update && sudo apt install plymouth plymouth-themes -y
 
 ### archlinux
 
+```zsh
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/aserdev-yt/aserdev-plymouth-theme/main/install-arch.sh)"
+```
+
+### debian/ubuntu
+
+```zsh
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/aserdev-yt/aserdev-plymouth-theme/main/install-deb.sh)"
+```
